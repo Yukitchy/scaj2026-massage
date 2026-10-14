@@ -304,7 +304,7 @@ function tally(d){
 
 /* ===== 当日の流れ ===== */
 const TT = {
-  d14: { pre: [['17:00', '18:15', '片付け', '閉場', '片付け完了'], ['18:15', '@s', '移動']], post: ['@e', '21:16', '駅へ', '新橋発 終電'] },
+  d14: { pre: [['17:00', '18:00', '片付け', '閉場', '片付け完了'], ['18:00', '@s', '移動']], post: ['@e', '21:16', '駅へ', '新橋発 終電'] },
   d15: { pre: [['17:00', '18:00', '撤収', '閉場', '撤収完了'], ['18:00', '@s', '移動']], post: ['@e', '21:16', '駅へ', '新橋発 終電'] }
 };
 function timeline(d){
@@ -339,7 +339,7 @@ function timeline(d){
 }
 
 /* ===== 会場マップ ===== */
-const ANG = { hoshinoshima: 160, hoshinosono: 200, gooit: 235 };
+const ANG = { hoshinoshima: 115, hoshinosono: 245, gooit: 195 };
 function mapSvg(d, t, letter){
   const cx = 215, cy = 160;
   let blocks = '';

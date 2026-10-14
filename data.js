@@ -8,7 +8,7 @@ window.UCHIAGE = {
    "id": "d14",
    "eventId": "emdcbionnnbmebgh",
    "label": "10/14(水)",
-   "name": "1日目のあとのマッサージ",
+   "name": "マッサージ",
    "pax": 4,
    "members": ["つよぽん", "香苗ちゃん", "ユウキ", "たいせい君"],
    "time": "18:45〜19:55",
