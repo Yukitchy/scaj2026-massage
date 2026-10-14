@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SCAJ2026 1日目おつかれさま</title>
+<meta name="robots" content="noindex,nofollow">
+<meta property="og:title" content="SCAJ2026 1日目おつかれさま">
+<meta property="og:description" content="焼き鳥で乾杯して、希望者はそのままマッサージ。新橋・烏森口から全部歩いてすぐ">
+<meta name="description" content="焼き鳥で乾杯して、希望者はそのままマッサージ。新橋・烏森口から全部歩いてすぐ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23ffc800'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='20' font-weight='900' font-family='sans-serif' fill='%2317191c'%3E串%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#17191c;--paper:#fbfaf6;--sign:#ffc800;--rule:#cfccc1;--block:#efede5;--mute:#585b60;
+  --fire:#d9481f;--calm:#2f6f73;
+  --sans:"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font:400 15px/1.8 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body,p,li,dd,dt,span,a,h1,h2,h3,td,th{word-break:auto-phrase;line-break:strict;overflow-wrap:anywhere}
+h1,h2,h3{text-wrap:balance;line-height:1.35}
+p{text-wrap:pretty}
+img{display:block;width:100%;height:100%;object-fit:cover}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+.mono{font-family:var(--mono)}
+
+/* cover */
+.cover{background:var(--sign);padding:20px 0 0}
+.top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font:700 12px/1.6 var(--mono);letter-spacing:.06em;border-bottom:2px solid var(--ink);padding-bottom:10px}
+.cover h1{margin-top:22px;font-weight:900}
+.cover h1 .en{display:block;font:700 clamp(40px,11vw,64px)/1 var(--mono);letter-spacing:-.02em}
+.cover h1 .ja{display:block;margin-top:8px;font-size:clamp(26px,7vw,40px)}
+.lead{margin-top:12px;font-weight:500;max-width:34em}
+.route{display:flex;align-items:stretch;gap:0;margin-top:20px;border:2px solid var(--ink);background:#fff;border-radius:6px;overflow:hidden}
+.route div{flex:1;padding:10px 12px;min-width:0}
+.route div+div{border-left:2px solid var(--ink)}
+.route b{display:block;font:700 12px/1.4 var(--mono);color:var(--mute)}
+.route span{display:block;font-weight:900;font-size:16px;line-height:1.4}
+.route .arrow{flex:0 0 auto;display:grid;place-items:center;padding:0 6px;background:var(--ink);color:var(--sign);font:700 13px/1 var(--mono)}
+
+/* mosaic */
+.mosaic{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:150px 150px;gap:4px;margin-top:20px}
+.mosaic figure{position:relative;overflow:hidden;background:var(--block)}
+.mosaic figure:first-child{grid-row:1/3}
+.mosaic figcaption{position:absolute;left:6px;bottom:6px;background:var(--ink);color:#fff;font:700 11px/1.5 var(--sans);padding:2px 7px;border-radius:3px}
+@media (max-width:560px){.mosaic{grid-template-columns:1fr 1fr;grid-template-rows:200px 120px 120px}.mosaic figure:first-child{grid-column:1/3;grid-row:1}}
+
+section{padding:36px 0 8px}
+.sec-h{display:flex;align-items:baseline;gap:10px;border-top:4px solid var(--ink);padding-top:10px;margin-bottom:16px}
+.sec-h .no{font:700 13px/1 var(--mono);background:var(--ink);color:var(--sign);padding:4px 7px;border-radius:3px}
+.sec-h h2{font-size:24px;font-weight:900}
+
+/* timeline */
+.tl{list-style:none;position:relative}
+.tl li{display:grid;grid-template-columns:62px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.tl time{font:700 16px/1.5 var(--mono)}
+.tl h3{font-size:16px;font-weight:900}
+.tl p{font-size:13px;color:var(--mute)}
+.tl .hot{background:#fff4d1;margin:0 -16px;padding:12px 16px;border-bottom:0}
+.tl .opt{background:#e7f1f1;margin:0 -16px;padding:12px 16px;border-bottom:0}
+.pill{display:inline-block;font:700 11px/1.5 var(--sans);padding:1px 8px;border-radius:999px;margin-left:6px;vertical-align:2px}
+.pill.f{background:var(--fire);color:#fff}
+.pill.c{background:var(--calm);color:#fff}
+
+/* shop card */
+.shop{border:2px solid var(--ink);border-radius:8px;overflow:hidden;background:#fff}
+.shop .hero{height:230px;position:relative}
+.shop .hero .tag{position:absolute;left:10px;top:10px;font:700 12px/1.4 var(--mono);background:var(--sign);border:2px solid var(--ink);padding:3px 8px;border-radius:4px}
+.shop .body{padding:16px}
+.shop h3{font-size:22px;font-weight:900}
+.shop .sub{font-size:13px;color:var(--mute);margin-top:2px}
+.star{font:700 14px/1 var(--mono)}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px;margin-top:14px}
+.facts dt{font-size:11px;color:var(--mute);letter-spacing:.06em}
+.facts dd{font-weight:700;font-size:14px;line-height:1.5}
+.why{margin-top:14px;font-size:14px}
+.gal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;margin-top:14px}
+.gal figure{position:relative;aspect-ratio:1/1;overflow:hidden;background:var(--block);border-radius:4px}
+.gal figcaption{position:absolute;inset:auto 0 0 0;padding:14px 6px 4px;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;font:700 11px/1.35 var(--sans)}
+.gal figcaption small{display:block;font:500 10px/1.3 var(--mono);opacity:.9}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.btn{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:14px;padding:9px 14px;border:2px solid var(--ink);border-radius:999px;text-decoration:none;background:#fff;white-space:nowrap}
+.btn.dark{background:var(--ink);color:#fff}
+.walk{display:flex;align-items:center;gap:10px;margin:16px 0;font-weight:700}
+.walk::before,.walk::after{content:"";flex:1;border-top:2px dashed var(--ink)}
+.walk span{font:700 13px/1.4 var(--mono);background:var(--ink);color:var(--sign);padding:6px 12px;border-radius:999px}
+
+/* price table */
+.price{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}
+.price th,.price td{text-align:left;padding:9px 6px;border-bottom:1px solid var(--rule);vertical-align:top}
+.price thead th{font-size:11px;color:var(--mute);font-weight:500;letter-spacing:.06em;border-bottom:2px solid var(--ink)}
+.price td.min{font:700 15px/1.4 var(--mono);white-space:nowrap;width:4.2em}
+.price td.yen{font:700 15px/1.4 var(--mono);text-align:right;white-space:nowrap}
+.price tr.best{background:#fff4d1}
+.price td small{display:block;color:var(--mute);font-size:11px}
+.note{font-size:12px;color:var(--mute);margin-top:8px}
+.warn{margin-top:12px;background:var(--block);border-radius:6px;padding:10px 12px;font-size:13px}
+
+/* money */
+.money{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.money div{border:2px solid var(--ink);border-radius:6px;padding:12px;background:#fff}
+.money b{display:block;font-size:12px;color:var(--mute)}
+.money span{display:block;font:700 22px/1.3 var(--mono)}
+.money small{font-size:12px;color:var(--mute)}
+foot,footer{display:block;margin-top:40px;padding:20px 0 40px;border-top:2px solid var(--ink);font-size:12px;color:var(--mute)}
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="wrap">
+    <div class="top"><span>AFTER HOURS GUIDE</span><span>irregular coffee｜Booth No.152</span></div>
+    <h1><span class="en">DAY 1</span><span class="ja">1日目おつかれさま</span></h1>
+    <p class="lead">焼き鳥で乾杯して、疲れた人はそのままマッサージへ。2軒とも新橋駅の烏森口側にあって、店から店へも歩いてすぐです。</p>
+    <div class="route">
+      <div><b>17:45〜</b><span>焼き鳥で乾杯</span></div>
+      <div class="arrow">徒歩<br>数分</div>
+      <div><b>希望者だけ</b><span>30〜60分ほぐす</span></div>
+    </div>
+    <div class="mosaic">
+      <figure><img src="https://imgfp.hotp.jp/IMGH/37/08/P044743708/P044743708_368.jpg" alt="ヤキトリ御殿の店内。黄色い壁に手書きの短冊メニュー"><figcaption>ヤキトリ御殿の店内</figcaption></figure>
+      <figure><img src="https://imgfp.hotp.jp/IMGH/47/41/P049684741/P049684741_238.jpg" alt="月見つくね"><figcaption>月見つくね</figcaption></figure>
+      <figure><img src="https://imgfp.hotp.jp/IMGH/48/10/P049684810/P049684810_238.jpg" alt="肉刺4種盛り合わせ"><figcaption>肉刺4種盛り</figcaption></figure>
+      <figure><img src="https://imgfp.hotp.jp/IMGH/47/31/P049684731/P049684731_238.jpg" alt="ねぎま"><figcaption>ねぎま</figcaption></figure>
+      <figure><img src="https://imgbp.hotp.jp/CSP/IMG_SRC_K/98/38/C012949838/C012949838.jpg" alt="Goo-it!新橋店の施術ベッド"><figcaption>そのあと、ほぐす</figcaption></figure>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section>
+  <div class="sec-h"><span class="no">01</span><h2>今夜の流れ</h2></div>
+  <ol class="tl">
+    <li><time>17:00</time><div><h3>閉場・片付け</h3><p>翌日の準備は最小限にして、早めに出る</p></div></li>
+    <li><time>17:20</time><div><h3>ゆりかもめで新橋へ</h3><p>国際展示場正門 → 新橋（約25分）。新橋駅で降りたら烏森口へ</p></div></li>
+    <li class="hot"><time>17:45</time><div><h3>ヤキトリ御殿で乾杯<span class="pill f">全員</span></h3><p>17:45〜18:00の予約想定。烏森口から徒歩1分。つくねと肉刺しで1日目を締める</p></div></li>
+    <li><time>19:30</time><div><h3>お開き</h3><p>マッサージ組はここで移動。帰る人は烏森口まで1分</p></div></li>
+    <li class="opt"><time>19:40</time><div><h3>Goo-it! 新橋店でほぐす<span class="pill c">希望者だけ</span></h3><p>30〜60分から好きなコースを選ぶ。最終受付は21:30なので、乾杯が延びても間に合う</p></div></li>
+    <li><time>20:40</time><div><h3>60分コースでも終わる時刻</h3><p>烏森口まで徒歩3分。つよぽんの終電（新橋21:16発）まで30分以上ある</p></div></li>
+  </ol>
+</section>
+
+<section>
+  <div class="sec-h"><span class="no">02</span><h2>焼き鳥で乾杯</h2></div>
+  <article class="shop">
+    <div class="hero"><img src="https://imgfp.hotp.jp/IMGH/37/80/P044743780/P044743780_368.jpg" alt="ヤキトリ御殿の2階席"><span class="tag">17:45〜 全員</span></div>
+    <div class="body">
+      <h3>ヤキトリ御殿 新橋店</h3>
+      <p class="sub">博多焼き鳥とつくね×九州料理　<span class="star">★4.2</span>（Googleの口コミ462件）</p>
+      <dl class="facts">
+        <div><dt>駅から</dt><dd>烏森口から徒歩1分</dd></div>
+        <div><dt>水曜の営業</dt><dd>14:00〜24:00</dd></div>
+        <div><dt>席</dt><dd>1〜3階で50席</dd></div>
+        <div><dt>予算</dt><dd>1人2,001〜3,000円</dd></div>
+      </dl>
+      <p class="why">名物は自家製の肉汁つくね。ねぎ塩・チーズ・月見の3種類があって、363円から。手書きの短冊が並ぶ大衆酒場で、立ちっぱなしの1日のあとでも気を張らずに座れる店です。</p>
+      <div class="gal">
+        <figure><img loading="lazy" src="https://imgfp.hotp.jp/IMGH/47/41/P049684741/P049684741_238.jpg" alt="月見つくね"><figcaption>月見つくね<small>429円</small></figcaption></figure>
+        <figure><img loading="lazy" src="https://imgfp.hotp.jp/IMGH/47/38/P049684738/P049684738_238.jpg" alt="チーズつくね"><figcaption>チーズつくね<small>363円〜</small></figcaption></figure>
+        <figure><img loading="lazy" src="https://imgfp.hotp.jp/IMGH/47/36/P049684736/P049684736_238.jpg" alt="ねぎ塩つくね"><figcaption>ねぎ塩つくね<small>363円〜</small></figcaption></figure>
+        <figure><img loading="lazy" src="https://imgfp.hotp.jp/IMGH/48/10/P049684810/P049684810_238.jpg" alt="肉刺4種盛り合わせ"><figcaption>肉刺4種盛り<small>2,189円</small></figcaption></figure>
+        <figure><img loading="lazy" src="https://imgfp.hotp.jp/IMGH/47/25/P049684725/P049684725_238.jpg" alt="焼き鳥 もも"><figcaption>もも</figcaption></figure>
+        <figure><img loading="lazy" src="https://imgfp.hotp.jp/IMGH/47/60/P049684760/P049684760_238.jpg" alt="鶏皮ポン酢"><figcaption>鶏皮ポン酢</figcaption></figure>
+      </div>
+      <table class="price">
+        <thead><tr><th colspan="2">頼み方</th><th style="text-align:right">税込</th></tr></thead>
+        <tbody>
+          <tr><td colspan="2">飲み放題（2時間）だけ付ける<small>料理は好きな串を単品で</small></td><td class="yen">1,480円〜</td></tr>
+          <tr><td colspan="2">飲み放題つきコース<small>焼き鳥・ネギ塩牛タン・刺身・もつ鍋など。全7種類</small></td><td class="yen">3,500円〜</td></tr>
+        </tbody>
+      </table>
+      <p class="note">ホットペッパーで席だけ予約すると、会計から10％引きの特典あり（条件は予約ページで確認）</p>
+      <div class="links">
+        <a class="btn dark" href="https://www.hotpepper.jp/strJ003828676/" target="_blank" rel="noopener">予約ページ ↗</a>
+        <a class="btn" href="https://maps.app.goo.gl/NQ8hswJQ7xRHNzjKA" target="_blank" rel="noopener">地図 ↗</a>
+      </div>
+    </div>
+  </article>
+
+  <p class="walk"><span>希望者だけ　徒歩数分</span></p>
+
+  <div class="sec-h"><span class="no">03</span><h2>そのまま、ほぐす</h2></div>
+  <article class="shop">
+    <div class="hero"><img loading="lazy" src="https://imgbp.hotp.jp/CSP/IMG_SRC_K/98/38/C012949838/C012949838.jpg" alt="Goo-it!新橋店の施術ベッド"><span class="tag">19:40〜 希望者</span></div>
+    <div class="body">
+      <h3>Goo-it! 新橋店</h3>
+      <p class="sub">本格もみほぐし専門店　<span class="star">★4.0</span>（Googleの口コミ68件）</p>
+      <dl class="facts">
+        <div><dt>駅から</dt><dd>烏森口から徒歩3分</dd></div>
+        <div><dt>営業</dt><dd>10:00〜23:00<br>最終受付21:30</dd></div>
+        <div><dt>ベッド</dt><dd>設備7</dd></div>
+        <div><dt>グループ</dt><dd>2名以上OK・友達歓迎</dd></div>
+      </dl>
+      <div class="gal">
+        <figure><img loading="lazy" src="https://imgbp.hotp.jp/CSP/IMG_SRC_K/20/18/C012782018/C012782018.jpg" alt="受付でカウンセリング"><figcaption>笑顔でお出迎え</figcaption></figure>
+        <figure><img loading="lazy" src="https://imgbp.hotp.jp/CSP/IMG_SRC_K/97/96/C012949796/C012949796.jpg" alt="もみほぐしの施術"><figcaption>全身もみほぐし</figcaption></figure>
+        <figure><img loading="lazy" src="https://imgbp.hotp.jp/CSP/IMG_SRC_K/98/38/C012949838/C012949838.jpg" alt="施術ベッド"><figcaption>施術スペース</figcaption></figure>
+      </div>
+
+      <table class="price">
+        <thead><tr><th>時間</th><th>コース</th><th style="text-align:right">税込</th></tr></thead>
+        <tbody>
+          <tr><td class="min">30分</td><td>全身もみほぐし<small>メニュー価格</small></td><td class="yen">2,500円</td></tr>
+          <tr><td class="min">30分</td><td>リフレクソロジー（足つぼ）<small>メニュー価格</small></td><td class="yen">3,200円</td></tr>
+          <tr><td class="min">30分</td><td>ヘッドほぐし<small>平日クーポン</small></td><td class="yen">3,470円</td></tr>
+          <tr><td class="min">40分</td><td>全身もみほぐし<small>メニュー価格</small></td><td class="yen">3,300円</td></tr>
+          <tr><td class="min">45分</td><td>全身もみほぐし<small>平日クーポン</small></td><td class="yen">3,680円</td></tr>
+          <tr class="best"><td class="min">60分</td><td>全身もみほぐし ★いちばんお得<small>平日クーポン（通常4,500円）</small></td><td class="yen">3,960円</td></tr>
+          <tr><td class="min">60分</td><td>リフレクソロジー（足つぼ）<small>平日クーポン</small></td><td class="yen">4,970円</td></tr>
+          <tr><td class="min">60分</td><td>もみほぐし30分＋足つぼ30分<small>平日クーポン・立ちっぱなしの足に</small></td><td class="yen">5,170円</td></tr>
+          <tr><td class="min">60分</td><td>もみほぐし30分＋ヘッド30分<small>平日クーポン</small></td><td class="yen">5,660円</td></tr>
+        </tbody>
+      </table>
+      <p class="note">平日クーポンは全員が使える（新規限定ではない）。ほかの割引との併用はできない。メニュー価格はホットペッパーのメニュー欄の表記</p>
+      <div class="warn">予約はホットペッパーのネット予約（即時予約OK）で、焼き鳥の席で人数が決まってから入れれば間に合います。施術する人が男性になる場合があるので、女性は予約のときに希望を書いておくと安心です。</div>
+      <div class="links">
+        <a class="btn dark" href="https://beauty.hotpepper.jp/kr/slnH000402904/coupon/" target="_blank" rel="noopener">クーポンと予約 ↗</a>
+        <a class="btn" href="https://maps.app.goo.gl/exFBh4ZuX6BW9JY48" target="_blank" rel="noopener">地図 ↗</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section>
+  <div class="sec-h"><span class="no">04</span><h2>1人あたりの目安</h2></div>
+  <div class="money">
+    <div><b>焼き鳥だけ</b><span>3,000円前後</span><small>単品＋飲み放題、またはコース3,500円〜</small></div>
+    <div><b>焼き鳥＋マッサージ60分</b><span>7,000円前後</span><small>いちばんお得な全身60分（3,960円）の場合</small></div>
+  </div>
+</section>
+
+<footer>
+  <p>irregular coffee　Booth No.152</p>
+  <p>店の情報・料金・写真はホットペッパーグルメ／ホットペッパービューティーの掲載（2026年10月14日に確認）。口コミの★はGoogleマップの表示。</p>
+  <p><a href="../">マッサージ店の投票ページへ</a></p>
+</footer>
+</main>
+</body>
+</html>
